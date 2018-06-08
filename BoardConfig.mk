@@ -1,17 +1,19 @@
 # Inherit from common
 include device/samsung/gte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gt58wifi
+LOCAL_PATH := device/samsung/gt58ltetmo
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gt58wifi,gt58wifixx,SM-T350
+TARGET_OTA_ASSERT_DEVICE := gt58lte,gt58ltexx,SM-T355,gt58ltetmo,SM-T357T
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt58wifi_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt58lte_tmo_defconfig
+
+TARGET_PROVIDES_KEYMASTER := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 # Partition sizes
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3145728000
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2516582400
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12138278912

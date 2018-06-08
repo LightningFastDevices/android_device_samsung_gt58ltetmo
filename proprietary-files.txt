@@ -10,7 +10,7 @@ etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
 # Audio
-lib/hw/audio.primary.msm8916.so
+etc/Tfa9895.cnt
 lib/libaudio_soundtrigger.so
 lib/libSamsungPreProcess.so
 lib/libSamsungPostProcess.so
