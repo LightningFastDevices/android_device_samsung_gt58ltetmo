@@ -11,8 +11,7 @@ Memory  | 1.5 GB
 Shipped Android Version | 5.1.1
 Storage | 16 GB
 MicroSD | Up to 256 GB
-Battery | 7300 mAh
-Battery | 6000 mAh
+Battery | 4200 mAh
 Display | 1024 x 768, 8.0" (246.38mm)
 Rear Camera  | 5.0 MP
 Front Camera | 2.0 MP
